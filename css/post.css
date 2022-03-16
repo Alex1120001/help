@@ -29,10 +29,7 @@ section a:first-child{
 .block-desc p{
     text-align: justify;
 }
-.block-desc-page{
-    width: 80%;
-    padding-left: 20px;
-}
+
 .block-desc-page p{
     text-align: justify;
 }
@@ -73,18 +70,33 @@ section a:hover .block-desc{
     color:silver;
     text-align: right;
 }
-#myProgress {
-    width: 100%;
-    background-color: grey;
-    margin-bottom: 30px;
-}
-  
-#myBar {
-    width: 15%;
-    height: 30px;
-    background-color: green;
-}
+
 .multiple-items{
+    width: 90%;
+    margin: auto;
+}
+.help{
+    font-size: 20px;
+    padding: 10px 0px;
+    background:tomato;
+    color:#fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.mybar{
+    background:green;
+    max-width: 400px;
     width: 95%;
     margin: auto;
+    color:#fff;
+    text-align: center;
+}
+.mybar h3{
+    padding: 10px;
+}
+.mybar p{
+    margin: 0;
+    text-align: center;
 }
