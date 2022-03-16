@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Cera Pro";
+    src: url("../fonts/Cera Pro Regular.otf") format("opentype");
+}
+body ,html{
+    margin: 0;
+    padding: 0;
+    font-family: "Cera Pro";
+}
+.header-logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+.blue{
+    color:rgb(0, 87, 184);
+}
+.yellow{
+    color: rgb(255, 215, 0);
+}
+.wrap-header{
+    background-color: rgb(240, 240, 240);
+    height: 80px;
+}
+header{
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-menu span a{
+    color:#333;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .1s;
+}
+.header-menu span a:hover{
+    color:rgb(90, 90, 90);
+    transition: .1s;
+    border-bottom: 1px solid #333;
+}
+.wrap-text-info{
+    background-color:rgba(153,148,227,100);
+    height: 40px;
+}
+.text-info{
+    color:#fff;
+    height: 100%;
+    width: 95%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.header-menu span+span{
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
+}
+.wrap-footer{
+    background-color:#333;
+    color:#fff;
+    padding: 30px 0px;
+}
+footer{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-social{
+    display: flex;
+    flex-direction: column;
+}
+.block-social img{
+    height: 30px;
+}
+.bl a{
+    color:#fff;
+    display: flex;
+    align-items: center;
+}
+.bl a:hover{
+    color:silver;
+}
+.bl a span{
+    margin-left: 10px;
+}
+.block-info{
+    text-align: right;
+}
+.content{
+    height: 600px;
+    width: 100%;
+    background-image:url(../images/img.jpg);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-content{
+    background-color:rgba(255, 255, 255, 0.782);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px;
+    text-align: center;
+}
+.help{
+    font-size: 20px;
+    border: 3px solid rgba(153,148,227,100);
+    padding: 5px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #FFE600 0%, #04C3FF 100%);
+    color:#fff;
+    cursor: pointer;
+}
+.help:hover{
+    border: 4px solid rgba(153,148,227,100);
+}
