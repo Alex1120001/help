@@ -86,11 +86,8 @@ section a:hover .block-desc{
     text-transform: uppercase;
 }
 .mybar{
-    background:green;
-    max-width: 400px;
     width: 95%;
     margin: auto;
-    color:#fff;
     text-align: center;
 }
 .mybar h3{
@@ -98,5 +95,21 @@ section a:hover .block-desc{
 }
 .mybar p{
     margin: 0;
-    text-align: center;
+    text-align: left;
+}
+.desc-line{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.desc-line .gr{
+    color:rgb(41, 189, 41);
+}
+.info{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.info .gr{
+    color:rgb(41, 189, 41);
 }
